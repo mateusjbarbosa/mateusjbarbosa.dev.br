@@ -1,13 +1,12 @@
-import styled from "styled-components";
-import Image from "next/image";
-import { GlobalStyle } from "../styles/global";
-import Head from "next/head";
+import styled from 'styled-components';
+import Image from 'next/image';
+import { GlobalStyle } from '../styles/global';
+import Head from 'next/head';
 
 const Background = styled.div`
-  padding: 80px 120px;
-
   max-width: 1366px;
   margin: auto;
+  padding: 80px 120px;
 `;
 
 const Main = styled.main`
@@ -194,9 +193,9 @@ export default function Home() {
               Tenho 23 anos e trabalho como desenvolvedor desde 2018. Sou
               bacharel <br />
               em <BioHighlight>Sistemas de Informação</BioHighlight> e
-              atualmente sou <BioHighlight>Engenheiro de Software</BioHighlight>{" "}
+              atualmente sou <BioHighlight>Engenheiro de Software</BioHighlight>{' '}
               e <br />
-              também professor na{" "}
+              também professor na{' '}
               <BioHighlight>Digital House Brasil</BioHighlight>.
             </Bio>
             <Button type="button">Vamos conversar</Button>
